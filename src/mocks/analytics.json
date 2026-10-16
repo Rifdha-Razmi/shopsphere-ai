@@ -1,0 +1,55 @@
+{
+ "_comment": "Seed baseline for the admin Recommendation Analytics panel. Live local events (impressions, clicks, add-to-cart) are added on top in this browser. All figures are simulated.",
+ "byStrategy": {
+  "recently-viewed": {
+   "impressions": 811,
+   "clicks": 56,
+   "addToCart": 18
+  },
+  "similar": {
+   "impressions": 518,
+   "clicks": 17,
+   "addToCart": 5
+  },
+  "category": {
+   "impressions": 1601,
+   "clicks": 99,
+   "addToCart": 25
+  },
+  "price": {
+   "impressions": 1400,
+   "clicks": 108,
+   "addToCart": 31
+  },
+  "wishlist": {
+   "impressions": 1137,
+   "clicks": 51,
+   "addToCart": 8
+  },
+  "cart": {
+   "impressions": 1966,
+   "clicks": 168,
+   "addToCart": 35
+  },
+  "frequently-bought": {
+   "impressions": 986,
+   "clicks": 50,
+   "addToCart": 15
+  },
+  "trending": {
+   "impressions": 2282,
+   "clicks": 120,
+   "addToCart": 18
+  },
+  "personalized": {
+   "impressions": 2305,
+   "clicks": 256,
+   "addToCart": 81
+  }
+ },
+ "simulated": {
+  "sessions": 18420,
+  "conversionRate": 0.031,
+  "revenueMultiplier": 1
+ }
+}
