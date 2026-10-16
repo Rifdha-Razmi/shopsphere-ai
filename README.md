@@ -4,6 +4,8 @@
 
 Built to the *ShopSphere AI Product Requirements Document v1.0* — fully on free / open-source tooling, with **no API keys, paid services or real payments** (PRD §2).
 
+**Live demo:** https://shopsphere-ai-five.vercel.app · **Repository:** https://github.com/Rifdha-Razmi/shopsphere-ai
+
 ![ShopSphere AI home page](docs/screenshots/desktop/01-home.png)
 
 ---
@@ -72,7 +74,7 @@ All 37 screens (storefront, checkout, account and every admin page) at 390 px, 8
 Requirements: **Node.js 20.9+** (Node 22 LTS recommended) and npm.
 
 ```bash
-git clone <your-repo-url> shopsphere-ai
+git clone https://github.com/Rifdha-Razmi/shopsphere-ai.git
 cd shopsphere-ai
 npm install
 cp .env.example .env.local     # optional — defaults work out of the box
