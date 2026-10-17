@@ -1,0 +1,20 @@
+# deps
+node_modules/
+# next
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+# env — never commit real values (PRD §13)
+.env
+.env.local
+.env.*.local
+# tests
+coverage/
+playwright-report/
+test-results/
+blob-report/
+# misc
+.DS_Store
+*.log
+.vercel
