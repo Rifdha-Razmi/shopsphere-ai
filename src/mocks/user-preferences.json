@@ -1,0 +1,13 @@
+{
+ "_comment": "Structure for derived recommendation signals (PRD §10.3). `defaults` is the empty shape a new visitor starts with.",
+ "schemaVersion": 1,
+ "defaults": {
+  "recentlyViewed": [],
+  "searchHistory": [],
+  "derived": {
+   "preferredCategories": [],
+   "priceBand": null,
+   "preferredBrands": []
+  }
+ }
+}
