@@ -1,0 +1,775 @@
+{
+ "_comment": "Fixture orders covering every tracking status. Times are offsets (hours) relative to first app load so the data never looks stale.",
+ "orders": [
+  {
+   "id": "SS-FX-00001",
+   "userId": "seed_customer",
+   "customerName": "Asha Raman",
+   "customerEmail": "customer@shopsphere.dev",
+   "phone": "9876543210",
+   "createdOffsetHours": -504,
+   "lines": [
+    {
+     "productId": 124,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "iPhone X",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 60099
+    },
+    {
+     "productId": 100,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Apple Airpods",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 9099
+    }
+   ],
+   "address": {
+    "fullName": "Asha Raman",
+    "phone": "9876543210",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00001"
+   },
+   "totals": {
+    "itemCount": 2,
+    "subtotal": 69198,
+    "mrpTotal": 85498,
+    "productSavings": 16300,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 12456,
+    "total": 81654
+   },
+   "couponCode": null,
+   "status": "delivered",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -504
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -502
+    },
+    {
+     "status": "packed",
+     "offsetHours": -482
+    },
+    {
+     "status": "shipped",
+     "offsetHours": -452
+    },
+    {
+     "status": "out-for-delivery",
+     "offsetHours": -412
+    },
+    {
+     "status": "delivered",
+     "offsetHours": -404
+    }
+   ],
+   "expectedDeliveryOffsetHours": -384
+  },
+  {
+   "id": "SS-FX-00002",
+   "userId": "seed_customer",
+   "customerName": "Asha Raman",
+   "customerEmail": "customer@shopsphere.dev",
+   "phone": "9876543210",
+   "createdOffsetHours": -72,
+   "lines": [
+    {
+     "productId": 85,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Man Plaid Shirt",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 2299
+    },
+    {
+     "productId": 88,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Nike Air Jordan 1 Red And Black",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/thumbnail.webp",
+     "quantity": 2,
+     "unitPrice": 11899
+    }
+   ],
+   "address": {
+    "fullName": "Asha Raman",
+    "phone": "9876543210",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "express",
+    "label": "Express Delivery",
+    "cost": 149
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00002"
+   },
+   "totals": {
+    "itemCount": 3,
+    "subtotal": 26097,
+    "mrpTotal": 27697,
+    "productSavings": 1600,
+    "couponDiscount": 0,
+    "shipping": 149,
+    "tax": 4697,
+    "total": 30943
+   },
+   "couponCode": null,
+   "status": "out-for-delivery",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -72
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -70
+    },
+    {
+     "status": "packed",
+     "offsetHours": -50
+    },
+    {
+     "status": "shipped",
+     "offsetHours": -20
+    },
+    {
+     "status": "out-for-delivery",
+     "offsetHours": 20
+    }
+   ],
+   "expectedDeliveryOffsetHours": 48
+  },
+  {
+   "id": "SS-FX-00003",
+   "userId": "seed_customer",
+   "customerName": "Asha Raman",
+   "customerEmail": "customer@shopsphere.dev",
+   "phone": "9876543210",
+   "createdOffsetHours": -72,
+   "lines": [
+    {
+     "productId": 78,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Apple MacBook Pro 14 Inch Space Grey",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 158199
+    }
+   ],
+   "address": {
+    "fullName": "Asha Raman",
+    "phone": "9876543210",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00003"
+   },
+   "totals": {
+    "itemCount": 1,
+    "subtotal": 158199,
+    "mrpTotal": 165999,
+    "productSavings": 7800,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 28476,
+    "total": 186675
+   },
+   "couponCode": null,
+   "status": "shipped",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -72
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -70
+    },
+    {
+     "status": "packed",
+     "offsetHours": -50
+    },
+    {
+     "status": "shipped",
+     "offsetHours": -20
+    }
+   ],
+   "expectedDeliveryOffsetHours": 48
+  },
+  {
+   "id": "SS-FX-00004",
+   "userId": "seed_customer",
+   "customerName": "Asha Raman",
+   "customerEmail": "customer@shopsphere.dev",
+   "phone": "9876543210",
+   "createdOffsetHours": -24,
+   "lines": [
+    {
+     "productId": 1,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Essence Mascara Lash Princess",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+     "quantity": 2,
+     "unitPrice": 749
+    },
+    {
+     "productId": 5,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Red Nail Polish",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 649
+    }
+   ],
+   "address": {
+    "fullName": "Asha Raman",
+    "phone": "9876543210",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00004"
+   },
+   "totals": {
+    "itemCount": 3,
+    "subtotal": 2147,
+    "mrpTotal": 2447,
+    "productSavings": 300,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 386,
+    "total": 2533
+   },
+   "couponCode": null,
+   "status": "packed",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -24
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -22
+    },
+    {
+     "status": "packed",
+     "offsetHours": -2
+    }
+   ],
+   "expectedDeliveryOffsetHours": 96
+  },
+  {
+   "id": "SS-FX-00005",
+   "userId": "seed_customer",
+   "customerName": "Asha Raman",
+   "customerEmail": "customer@shopsphere.dev",
+   "phone": "9876543210",
+   "createdOffsetHours": -4.800000000000001,
+   "lines": [
+    {
+     "productId": 154,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Black Sun Glasses",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 2399
+    },
+    {
+     "productId": 93,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Brown Leather Belt Watch",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 6999
+    }
+   ],
+   "address": {
+    "fullName": "Asha Raman",
+    "phone": "9876543210",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00005"
+   },
+   "totals": {
+    "itemCount": 2,
+    "subtotal": 9398,
+    "mrpTotal": 9998,
+    "productSavings": 600,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 1692,
+    "total": 11090
+   },
+   "couponCode": null,
+   "status": "confirmed",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -4.8
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -2.8
+    }
+   ],
+   "expectedDeliveryOffsetHours": 115.2
+  },
+  {
+   "id": "SS-FX-00006",
+   "userId": "seed_customer",
+   "customerName": "Asha Raman",
+   "customerEmail": "customer@shopsphere.dev",
+   "phone": "9876543210",
+   "createdOffsetHours": -0.48,
+   "lines": [
+    {
+     "productId": 122,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "iPhone 6",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 23199
+    },
+    {
+     "productId": 105,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Apple MagSafe Battery Pack",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 6899
+    }
+   ],
+   "address": {
+    "fullName": "Asha Raman",
+    "phone": "9876543210",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00006"
+   },
+   "totals": {
+    "itemCount": 2,
+    "subtotal": 30098,
+    "mrpTotal": 33198,
+    "productSavings": 3100,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 5418,
+    "total": 35516
+   },
+   "couponCode": null,
+   "status": "placed",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -0.5
+    }
+   ],
+   "expectedDeliveryOffsetHours": 119.52
+  },
+  {
+   "id": "SS-FX-00007",
+   "userId": "dj_5",
+   "customerName": "Emma Miller",
+   "customerEmail": "emma.miller@x.dummyjson.com",
+   "phone": "9811122233",
+   "createdOffsetHours": -336,
+   "lines": [
+    {
+     "productId": 6,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Calvin Klein CK One",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 3999
+    },
+    {
+     "productId": 11,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Annibale Colombo Bed",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 144199
+    }
+   ],
+   "address": {
+    "fullName": "Emma Miller",
+    "phone": "9811122233",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00007"
+   },
+   "totals": {
+    "itemCount": 2,
+    "subtotal": 148198,
+    "mrpTotal": 161798,
+    "productSavings": 13600,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 26676,
+    "total": 174874
+   },
+   "couponCode": null,
+   "status": "delivered",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -336
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -334
+    },
+    {
+     "status": "packed",
+     "offsetHours": -314
+    },
+    {
+     "status": "shipped",
+     "offsetHours": -284
+    },
+    {
+     "status": "out-for-delivery",
+     "offsetHours": -244
+    },
+    {
+     "status": "delivered",
+     "offsetHours": -236
+    }
+   ],
+   "expectedDeliveryOffsetHours": -216
+  },
+  {
+   "id": "SS-FX-00008",
+   "userId": "dj_8",
+   "customerName": "Ava Taylor",
+   "customerEmail": "ava.taylor@x.dummyjson.com",
+   "phone": "9822233344",
+   "createdOffsetHours": -48,
+   "lines": [
+    {
+     "productId": 133,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Samsung Galaxy S10",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 54899
+    }
+   ],
+   "address": {
+    "fullName": "Ava Taylor",
+    "phone": "9822233344",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00008"
+   },
+   "totals": {
+    "itemCount": 1,
+    "subtotal": 54899,
+    "mrpTotal": 58099,
+    "productSavings": 3200,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 9882,
+    "total": 64781
+   },
+   "couponCode": null,
+   "status": "shipped",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -48
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -46
+    },
+    {
+     "status": "packed",
+     "offsetHours": -26
+    },
+    {
+     "status": "shipped",
+     "offsetHours": 4
+    }
+   ],
+   "expectedDeliveryOffsetHours": 72
+  },
+  {
+   "id": "SS-FX-00009",
+   "userId": "dj_12",
+   "customerName": "Ethan Martinez",
+   "customerEmail": "ethan.martinez@x.dummyjson.com",
+   "phone": "9833344455",
+   "createdOffsetHours": -96,
+   "lines": [
+    {
+     "productId": 80,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Huawei Matebook X Pro",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 105299
+    },
+    {
+     "productId": 102,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Apple Airpower Wireless Charger",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 6299
+    }
+   ],
+   "address": {
+    "fullName": "Ethan Martinez",
+    "phone": "9833344455",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00009"
+   },
+   "totals": {
+    "itemCount": 2,
+    "subtotal": 111598,
+    "mrpTotal": 122798,
+    "productSavings": 11200,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 20088,
+    "total": 131686
+   },
+   "couponCode": null,
+   "status": "out-for-delivery",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -96
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -94
+    },
+    {
+     "status": "packed",
+     "offsetHours": -74
+    },
+    {
+     "status": "shipped",
+     "offsetHours": -44
+    },
+    {
+     "status": "out-for-delivery",
+     "offsetHours": -4
+    }
+   ],
+   "expectedDeliveryOffsetHours": 24
+  },
+  {
+   "id": "SS-FX-00010",
+   "userId": "dj_15",
+   "customerName": "Liam Garcia",
+   "customerEmail": "liam.garcia@x.dummyjson.com",
+   "phone": "9844455566",
+   "createdOffsetHours": -720,
+   "lines": [
+    {
+     "productId": 143,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Cricket Bat",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 2399
+    },
+    {
+     "productId": 144,
+     "variantId": null,
+     "variantLabel": null,
+     "title": "Cricket Helmet",
+     "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp",
+     "quantity": 1,
+     "unitPrice": 3299
+    }
+   ],
+   "address": {
+    "fullName": "Liam Garcia",
+    "phone": "9844455566",
+    "line1": "12, Lake View Road",
+    "line2": "Near City Library",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600028"
+   },
+   "delivery": {
+    "id": "standard",
+    "label": "Standard Delivery",
+    "cost": 0
+   },
+   "payment": {
+    "method": "mock-upi",
+    "label": "Mock UPI (test mode)",
+    "reference": "MOCK-00010"
+   },
+   "totals": {
+    "itemCount": 2,
+    "subtotal": 5698,
+    "mrpTotal": 6198,
+    "productSavings": 500,
+    "couponDiscount": 0,
+    "shipping": 0,
+    "tax": 1026,
+    "total": 6724
+   },
+   "couponCode": null,
+   "status": "delivered",
+   "timeline": [
+    {
+     "status": "placed",
+     "offsetHours": -720
+    },
+    {
+     "status": "confirmed",
+     "offsetHours": -718
+    },
+    {
+     "status": "packed",
+     "offsetHours": -698
+    },
+    {
+     "status": "shipped",
+     "offsetHours": -668
+    },
+    {
+     "status": "out-for-delivery",
+     "offsetHours": -628
+    },
+    {
+     "status": "delivered",
+     "offsetHours": -620
+    }
+   ],
+   "expectedDeliveryOffsetHours": -600
+  }
+ ]
+}
